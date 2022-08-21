@@ -5,11 +5,11 @@ const etudiantSchema=mongoose.Schema({
         required:true
     },
    nom:{
-        type:Number,
+        type:String,
         required:true
     },
     email:{
-        type:Number,
+        type:String,
         required:true
     }
 });
